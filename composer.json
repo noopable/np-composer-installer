@@ -1,0 +1,27 @@
+{
+    "name": "noopable/np-composer-installer",
+    "description": "zf2 local module installer => installer destination => module",
+    "type": "composer-installer",
+    "extra": 
+        {
+            "class":"NpComposerInstaller\\Installer"
+        },
+    "license": "MIT",
+    "keywords": [
+        "zf2"
+    ],
+    "authors": [
+        {
+            "name": "Tomoaki Kosugi",
+            "email": "kipspro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "NpComposerInstaller\\": "src/"
+        }
+    }
+}

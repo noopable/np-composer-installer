@@ -1,0 +1,8 @@
+<?php
+
+if (is_dir(realpath(__DIR__ . '/../../../vendor/composer'))) {
+    set_include_path(realpath(__DIR__ . '/../../../vendor/composer/composer/src/')
+            . PATH_SEPARATOR . get_include_path());
+}
+
+
